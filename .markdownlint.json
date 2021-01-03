@@ -1,0 +1,28 @@
+{
+    "default": true,
+    "code-block-style": {
+        "style": "fenced"
+    },
+    "code-fence-style": {
+        "style": "backtick"
+    },
+    "heading-style": {
+        "style": "atx"
+    },
+    "hr-style": {
+        "style": "---"
+    },
+    "line-length": {
+        "code_blocks": false,
+        "line_length": 80,
+        "stern": true,
+        "tables": false
+    },
+    "no-duplicate-heading": false,
+    "ol-prefix": {
+        "style": "one"
+    },
+    "ul-style": {
+        "style": "dash"
+    }
+}
