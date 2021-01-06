@@ -18,7 +18,9 @@
         "stern": true,
         "tables": false
     },
-    "no-duplicate-heading": false,
+    "no-duplicate-heading": {
+        "siblings_only": true
+    },
     "ol-prefix": {
         "style": "one"
     },
