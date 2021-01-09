@@ -1,11 +1,9 @@
-# Scoop
+# Tool: Scoop
 
 Scoop is a command-line installer for Windows. It simplifies installing and
 updating some of the software for other guides.
 
-Website: <https://scoop.sh/>
-
-Source code: <https://github.com/lukesampson/scoop>
+[Website][] | [Repository][] | [Documentation][]
 
 ## Guide
 
@@ -34,8 +32,8 @@ Source code: <https://github.com/lukesampson/scoop>
    scoop install mingit-busybox
    ```
 
-   This command installs the MinGit package with the BusyBox shell for the
-   smallest footprint possible.
+   Scoop installs the MinGit package with the BusyBox shell for the smallest
+   footprint possible.
 1. Add the [games bucket][], which contains manifests for some of the software
    in other guides:
 
@@ -46,6 +44,9 @@ Source code: <https://github.com/lukesampson/scoop>
 <!-- Reference Links -->
 
 [change the install directory]: https://github.com/lukesampson/scoop#install-scoop-to-a-custom-directory-by-changing-scoop
+[Documentation]: https://github.com/lukesampson/scoop/wiki
 [games bucket]: https://github.com/Calinou/scoop-games
 [Git for Windows]: https://gitforwindows.org/
 [MinGit]: https://github.com/git-for-windows/git/wiki/MinGit
+[Repository]: https://github.com/lukesampson/scoop
+[Website]: https://scoop.sh/
