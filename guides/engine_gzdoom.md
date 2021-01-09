@@ -1,7 +1,7 @@
-# Engine: GZDoom
+# Engine:GZDoom
 
-GZDoom is a 3D-accelerated Doom source port. It streamlines playing and modding
-Doom engine games on modern PCs.
+GZDoom is a 3D-accelerated DOOM source port. It streamlines playing and modding
+DOOM engine games on modern PCs.
 
 [Supported Games][]
 
@@ -9,7 +9,7 @@ Doom engine games on modern PCs.
 
 ## Prerequisites
 
-1. [Tool: Scoop](tool_scoop.md)
+1. [Tool:Scoop](tool_scoop.md)
 
 ## Guide
 
@@ -35,6 +35,19 @@ Doom engine games on modern PCs.
 1. Open the configuration file and paste in the following settings:
 
    ```ini
+   [IWADSearch.Directories]
+   Path=.
+   Path=$DOOMWADDIR
+   Path=$DOOMWADDIR/iwads
+   Path=$HOME
+   Path=$PROGDIR
+
+   [FileSearch.Directories]
+   Path=$PROGDIR
+   Path=$DOOMWADDIR
+   Path=$DOOMWADDIR/pwads
+   Path=$DOOMWADDIR/mods
+
    [GlobalSettings]
    cl_run=true
    gl_texture_filter=0
@@ -64,9 +77,13 @@ Doom engine games on modern PCs.
 1. Save the configuration file and launch GZDoom with any IWAD to customize the
    remaining settings to your liking.
 
+   If you need a free IWAD just to launch GZDoom for the first time, download
+   the [DOOM shareware IWAD][] and place it in `scoop\persist\_doom\iwads`.
+
 <!-- Reference Links -->
 
 [Documentation]: https://zdoom.org/wiki/Main_Page
+[DOOM shareware IWAD]: http://www.doomworld.com/3ddownloads/ports/shareware_doom_iwad.zip
 [Repository]: https://github.com/coelckers/gzdoom
 [Supported Games]: https://zdoom.org/wiki/IWAD#Supported_IWADs
 [Website]: https://www.zdoom.org/

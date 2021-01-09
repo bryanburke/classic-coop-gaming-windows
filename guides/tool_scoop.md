@@ -1,4 +1,4 @@
-# Tool: Scoop
+# Tool:Scoop
 
 Scoop is a command-line installer for Windows. It simplifies installing and
 updating some of the software for other guides.
@@ -24,7 +24,8 @@ updating some of the software for other guides.
    ```
 
    This script installs Scoop to the `scoop` subdirectory of your home directory
-   unless you [change the install directory][].
+   unless you [change the install directory][]. Regardless of where you install
+   Scoop, the other guides simply refer to the install directory as `scoop`.
 1. Install [MinGit][], a minimal distribution of [Git for Windows][], so Scoop
    can check for and apply updates:
 
