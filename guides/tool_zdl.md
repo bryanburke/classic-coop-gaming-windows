@@ -19,11 +19,13 @@ switching between games and configurations.
    scoop install games/zdl
    ```
 
-1. Launch ZDL and navigate to the **General settings** tab.
-1. Below the **Source ports** box, click the plus button and select
-   `scoop\apps\gzdoom\current\gzdoom.exe` to add the GZDoom source port.
-1. Navigate to the **Launch config** tab and click the down arrow button next to
-   the **Launch** button to show the rest of the options.
+1. Launch ZDL.
+1. Navigate to the **General settings** tab.
+1. Below the **Source ports** box, click the plus button.
+1. Select `scoop\apps\gzdoom\current\gzdoom.exe` to add the GZDoom source port.
+1. Navigate to the **Launch config** tab.
+1. Next to the **Launch** button, click the down arrow to show the rest of the
+   options.
 
 <!-- Reference Links -->
 

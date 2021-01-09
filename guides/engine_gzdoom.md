@@ -29,30 +29,20 @@ DOOM engine games on modern PCs.
    files into categories:
 
    - `iwads` to store IWADs, bundles that contain full game data.
-   - `pwads` to store PWADs, bundles that contain partial game data.
+   - `pwads` to store PWADs, bundles that contain addon game data.
    - `mods` to store mods, typically PK3 or ZIP archives.
    - `zdl` to store profiles for the ZDL launcher.
-1. Open the configuration file and paste in the following settings:
+1. Open `scoop\persist\gzdoom\gzdoom_portable.ini` and paste in the following
+   settings:
 
    ```ini
-   [IWADSearch.Directories]
-   Path=.
-   Path=$DOOMWADDIR
-   Path=$DOOMWADDIR/iwads
-   Path=$HOME
-   Path=$PROGDIR
-
-   [FileSearch.Directories]
-   Path=$PROGDIR
-   Path=$DOOMWADDIR
-   Path=$DOOMWADDIR/pwads
-   Path=$DOOMWADDIR/mods
-
    [GlobalSettings]
    cl_run=true
    gl_texture_filter=0
    save_dir=$PROGDIR/../../../persist/gzdoom/saves
+   snd_channels=256
    vid_maxfps=60
+   vid_preferbackend=1
    vid_vsync=false
 
    [Doom.Player]
@@ -72,18 +62,19 @@ DOOM engine games on modern PCs.
    vid_cursor=cursor
    ```
 
-   Replace *Doomguy* with your name. If your monitor's refresh rate is higher
-   than 60 Hz, replace *60* for `vid_maxfps` with the correct number.
-1. Save the configuration file and launch GZDoom with any IWAD to customize the
-   remaining settings to your liking.
-
-   If you need a free IWAD just to launch GZDoom for the first time, download
-   the [DOOM shareware IWAD][] and place it in `scoop\persist\_doom\iwads`.
+1. Replace *Doomguy* with your name.
+1. If your monitor's refresh rate is higher than 60 Hz, replace *60* for
+   `vid_maxfps` with the correct number.
+1. Save the configuration file.
+1. Launch GZDoom with any IWAD to customize the remaining settings to your
+   liking.
+1. If you need a free IWAD to launch GZDoom for the first time, download the
+   [DOOM shareware episode][] and unpack `DOOM1.WAD` into `scoop\persist\_doom`.
 
 <!-- Reference Links -->
 
 [Documentation]: https://zdoom.org/wiki/Main_Page
-[DOOM shareware IWAD]: http://www.doomworld.com/3ddownloads/ports/shareware_doom_iwad.zip
+[DOOM shareware episode]: http://www.doomworld.com/3ddownloads/ports/shareware_doom_iwad.zip
 [Repository]: https://github.com/coelckers/gzdoom
 [Supported Games]: https://zdoom.org/wiki/IWAD#Supported_IWADs
 [Website]: https://www.zdoom.org/
