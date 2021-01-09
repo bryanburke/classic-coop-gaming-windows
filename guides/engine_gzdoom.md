@@ -1,7 +1,7 @@
 # Engine: GZDoom
 
-GZDoom is a 3D-accelerated Doom source port. It makes playing and modding Doom
-engine games on modern PCs much easier.
+GZDoom is a 3D-accelerated Doom source port. It streamlines playing and modding
+Doom engine games on modern PCs.
 
 [Supported Games][]
 
@@ -9,7 +9,7 @@ engine games on modern PCs much easier.
 
 ## Prerequisites
 
-- [Tool: Scoop](tool_scoop.md)
+1. [Tool: Scoop](tool_scoop.md)
 
 ## Guide
 
@@ -17,7 +17,7 @@ engine games on modern PCs much easier.
 
    ```powershell
    scoop update
-   scoop install gzdoom
+   scoop install games/gzdoom
    ```
 
    The GZDoom package creates the following two directories:
@@ -61,7 +61,7 @@ engine games on modern PCs much easier.
 
    Replace *Doomguy* with your name. If your monitor's refresh rate is higher
    than 60 Hz, replace *60* for `vid_maxfps` with the correct number.
-1. Save the configuration file and open GZDoom with any IWAD to customize the
+1. Save the configuration file and launch GZDoom with any IWAD to customize the
    remaining settings to your liking.
 
 <!-- Reference Links -->
