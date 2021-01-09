@@ -1,7 +1,7 @@
 # Scoop
 
 Scoop is a command-line installer for Windows. It simplifies installing and
-updating some of the tools and engines that enable classic co-op gaming.
+updating some of the software for other guides.
 
 Website: <https://scoop.sh/>
 
@@ -11,7 +11,7 @@ Source code: <https://github.com/lukesampson/scoop>
 
 1. Open a Windows PowerShell console as your normal, non-Administrator user.
 1. Allow PowerShell to execute scripts downloaded from the Internet if they are
-   digitally signed by a trusted publisher:
+   digitally signed by trusted publishers:
 
    ```powershell
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -25,8 +25,8 @@ Source code: <https://github.com/lukesampson/scoop>
    Invoke-WebRequest -UseBasicParsing https://get.scoop.sh/ | Invoke-Expression
    ```
 
-   This script installs Scoop to the `scoop` subdirectory of your home
-   directory.
+   This script installs Scoop to the `scoop` subdirectory of your home directory
+   unless you [change the install directory][].
 1. Install [MinGit][], a minimal distribution of [Git for Windows][], so Scoop
    can check for and apply updates:
 
@@ -36,8 +36,8 @@ Source code: <https://github.com/lukesampson/scoop>
 
    This command installs the MinGit package with the BusyBox shell for the
    smallest footprint possible.
-1. Add the [games bucket][], which contains manifests for some of the tools and
-   engines in the guides:
+1. Add the [games bucket][], which contains manifests for some of the software
+   in other guides:
 
    ```powershell
    scoop bucket add games
@@ -45,6 +45,7 @@ Source code: <https://github.com/lukesampson/scoop>
 
 <!-- Reference Links -->
 
+[change the install directory]: https://github.com/lukesampson/scoop#install-scoop-to-a-custom-directory-by-changing-scoop
 [games bucket]: https://github.com/Calinou/scoop-games
 [Git for Windows]: https://gitforwindows.org/
 [MinGit]: https://github.com/git-for-windows/git/wiki/MinGit
