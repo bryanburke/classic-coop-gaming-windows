@@ -10,12 +10,13 @@ consolidated the first-person shooter genre.
 ## Prerequisites
 
 1. [Engine:GZDoom](engine_gzdoom.md)
+1. [Mod:Smooth Doom](mod_smooth-doom.md)
 1. [Tool:ZDL](tool_zdl.md)
 
 ## Caveats
 
 - All players must be using the EXACT same GZDoom version, IWAD, PWADs, mods,
-  and save file for co-op to work properly.
+  file load order, and save file for co-op to work properly.
 
 ## Guide
 
@@ -40,16 +41,10 @@ consolidated the first-person shooter genre.
 
 ### Addons
 
-* TODO: Move Smooth Doom mod to own guide and cut down settings to only customizations
-
 1. Download [SIGIL][] and unpack `SIGIL_v1_21.wad` into
    `scoop\persist\_doom\pwads`.
 
    SIGIL is a free PWAD by [John Romero][] that adds a fifth campaign episode.
-1. Download [Smooth Doom][] (`SmoothDoom.pk3`) into `scoop\persist\_doom\mods`.
-
-   Smooth Doom is a mod that adds smoother animations and various new visual
-   effects to the game.
 1. Download the [Roland SC-55 music pack][] (`doom_sc55_flac.zip` for the
    boosted FLAC version) into `scoop\persist\_doom\mods`.
 
@@ -57,42 +52,12 @@ consolidated the first-person shooter genre.
    the Roland SC-55.
 1. Below the **External files** box in ZDL, click the plus button.
 1. Select the files for the above addons to add them.
-1. If necessary, use the up and down arrow buttons to reorder the files like
-   this:
+1. Add the Smooth Doom mod (`SmoothDoom.pk3`) in the same way.
+1. Use the up and down arrow buttons to reorder the files like this:
 
    1. `SIGIL_v1_21.wad`
    1. `SmoothDoom.pk3`
    1. `doom_sc55_flac.zip`
-
-1. Open `scoop\persist\gzdoom\gzdoom_portable.ini` and paste in the following
-   settings at the bottom of the file:
-
-   ```ini
-   [Doom.LocalServerInfo.Mod]
-   bbtoggle=1
-   botoggle=0
-   bstoggle=0
-   catoggle=2
-   dctoggle=1
-   dutoggle=0
-   gbtoggle=1
-   ggtoggle=1
-   gotoggle=0
-   mdtoggle=1
-   pftoggle=1
-   pitoggle=0
-   putoggle=0
-   retoggle=0
-   ritoggle=0
-   rmtoggle=1
-   rotoggle=0
-   sawgibtoggle=1
-   totoggle=0
-   vatoggle=0
-   wetoggle=0
-   ```
-
-1. Save the configuration file.
 
 ### Co-op
 
@@ -141,6 +106,5 @@ consolidated the first-person shooter genre.
 [Roland SC-55 music pack]: https://sc55.duke4.net/games.php#doom
 [Multiplayer and bot settings]: https://zdoom.org/wiki/CVARs:Configuration#Multiplayer_and_bot_settings
 [SIGIL]: https://romero.com/sigil
-[Smooth Doom]: https://forum.zdoom.org/viewtopic.php?t=45550
 [Store Page]: https://www.gog.com/game/the_ultimate_doom
 [Website]: https://doomwiki.org/wiki/DOOM
