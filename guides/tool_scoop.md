@@ -17,6 +17,7 @@ updating some of the software for other guides.
 
    This command allows executing remote signed scripts for your current user
    only and thus does not make any system-wide changes.
+
 1. Download and execute the Scoop install script:
 
    ```powershell
@@ -26,6 +27,7 @@ updating some of the software for other guides.
    This script installs Scoop to the `scoop` subdirectory of your home directory
    unless you [change the install directory][]. Regardless of where you install
    Scoop, the other guides simply refer to the install directory as `scoop`.
+
 1. Install [MinGit][], a minimal distribution of [Git for Windows][], so Scoop
    can check for and apply updates:
 
@@ -35,6 +37,7 @@ updating some of the software for other guides.
 
    Scoop installs the MinGit package with the BusyBox shell for the smallest
    footprint possible.
+
 1. Add the [games bucket][], which contains manifests for some of the software
    in other guides:
 
@@ -44,10 +47,11 @@ updating some of the software for other guides.
 
 <!-- Reference Links -->
 
-[change the install directory]: https://github.com/lukesampson/scoop#install-scoop-to-a-custom-directory-by-changing-scoop
-[Documentation]: https://github.com/lukesampson/scoop/wiki
+[change the install directory]:
+  https://github.com/lukesampson/scoop#install-scoop-to-a-custom-directory-by-changing-scoop
+[documentation]: https://github.com/lukesampson/scoop/wiki
 [games bucket]: https://github.com/Calinou/scoop-games
-[Git for Windows]: https://gitforwindows.org/
-[MinGit]: https://github.com/git-for-windows/git/wiki/MinGit
-[Repository]: https://github.com/lukesampson/scoop
-[Website]: https://scoop.sh/
+[git for windows]: https://gitforwindows.org/
+[mingit]: https://github.com/git-for-windows/git/wiki/MinGit
+[repository]: https://github.com/lukesampson/scoop
+[website]: https://scoop.sh/

@@ -29,5 +29,5 @@ switching between games and configurations.
 
 <!-- Reference Links -->
 
-[Repository]: https://github.com/lcferrum/qzdl
-[Website]: https://zdoom.org/wiki/ZDL
+[repository]: https://github.com/lcferrum/qzdl
+[website]: https://zdoom.org/wiki/ZDL

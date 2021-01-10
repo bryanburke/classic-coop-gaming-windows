@@ -1,0 +1,97 @@
+{
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "adammaras.overtype",
+        "davidanson.vscode-markdownlint",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "eriklynd.json-tools",
+        "esbenp.prettier-vscode",
+        "nextfaze.json-parse-stringify",
+        "redhat.vscode-yaml",
+        "tuxtina.json2yaml"
+    ],
+    "mounts": [
+        "source=history-${localWorkspaceFolderBasename},target=/home/dev/.history,type=volume"
+    ],
+    "settings": {
+        "[json]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[jsonc]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[makefile]": {
+            "editor.insertSpaces": false
+        },
+        "[markdown]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[yaml]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "editor.tabSize": 2
+        },
+        "editor.defaultFormatter": null,
+        "editor.detectIndentation": false,
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnType": false,
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": true,
+        "editor.rulers": [80],
+        "editor.tabSize": 4,
+        "files.autoGuessEncoding": false,
+        "files.encoding": "utf8",
+        "files.eol": "\n",
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "files.trimTrailingWhitespace": true,
+        "git.autofetch": false,
+        "git.autorefresh": true,
+        "git.autoStash": false,
+        "git.detectSubmodules": true,
+        "git.enabled": true,
+        "git.enableSmartCommit": false,
+        "git.fetchOnPull": true,
+        "git.inputValidation": "always",
+        "git.inputValidationLength": 72,
+        "git.inputValidationSubjectLength": 50,
+        "git.path": "git",
+        "git.promptToSaveFilesBeforeCommit": "always",
+        "git.pullTags": true,
+        "git.rebaseWhenSync": false,
+        "git.showPushSuccessNotification": true,
+        "git.suggestSmartCommit": false,
+        "git.terminalAuthentication": true,
+        "git.untrackedChanges": "separate",
+        "gitlens.advanced.telemetry.enabled": false,
+        "json.format.enable": false,
+        "markdownlint.config": {},
+        "markdownlint.customRules": [],
+        "markdownlint.ignore": [],
+        "markdownlint.run": "onSave",
+        "prettier.configPath": "",
+        "prettier.disableLanguages": [],
+        "prettier.documentSelectors": [],
+        "prettier.enable": true,
+        "prettier.ignorePath": "",
+        "prettier.packageManager": "npm",
+        "prettier.prettierPath": "",
+        "prettier.requireConfig": false,
+        "prettier.resolveGlobalModules": true,
+        "prettier.useEditorConfig": true,
+        "prettier.withNodeModules": false,
+        "telemetry.enableTelemetry": false,
+        "terminal.explorerKind": "integrated",
+        "terminal.integrated.automationShell.linux": "/bin/sh",
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "terminal.integrated.shellArgs.linux": ["--login"],
+        "yaml.completion": true,
+        "yaml.customTags": [],
+        "yaml.format.enable": false,
+        "yaml.hover": true,
+        "yaml.schemas": {},
+        "yaml.schemaStore.enable": false,
+        "yaml.validate": false
+    }
+}

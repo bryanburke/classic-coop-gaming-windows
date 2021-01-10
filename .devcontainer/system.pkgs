@@ -1,0 +1,10 @@
+bash-completion
+ca-certificates
+curl
+git
+less
+nano
+openssh-client
+procps
+tree
+vim-tiny

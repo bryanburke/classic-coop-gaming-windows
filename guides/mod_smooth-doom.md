@@ -35,4 +35,4 @@ additional visual effects to the following games:
 
 <!-- Reference Links -->
 
-[Website]: https://forum.zdoom.org/viewtopic.php?t=45550
+[website]: https://forum.zdoom.org/viewtopic.php?t=45550

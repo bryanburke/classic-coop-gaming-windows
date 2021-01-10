@@ -25,6 +25,7 @@ DOOM engine games on modern PCs.
    - `scoop\persist\gzdoom` contains the GZDoom configuration file,
      `gzdoom_portable.ini`.
    - `scoop\persist\_doom` provides a place to store game files.
+
 1. Create the following subdirectories in the `_doom` directory to organize game
    files into categories:
 
@@ -32,6 +33,7 @@ DOOM engine games on modern PCs.
    - `pwads` to store PWADs, bundles that contain addon game data.
    - `mods` to store mods, typically PK3 or ZIP archives.
    - `zdl` to store profiles for the ZDL launcher.
+
 1. Open `scoop\persist\gzdoom\gzdoom_portable.ini` and paste in the following
    settings:
 
@@ -62,8 +64,8 @@ DOOM engine games on modern PCs.
    vid_cursor=cursor
    ```
 
-1. Replace *Doomguy* with your name.
-1. If your monitor's refresh rate is higher than 60 Hz, replace *60* for
+1. Replace _Doomguy_ with your name.
+1. If your monitor's refresh rate is higher than 60 Hz, replace _60_ for
    `vid_maxfps` with the correct number.
 1. Save the configuration file.
 1. Launch GZDoom with any IWAD to customize the remaining settings to your
@@ -73,8 +75,9 @@ DOOM engine games on modern PCs.
 
 <!-- Reference Links -->
 
-[Documentation]: https://zdoom.org/wiki/Main_Page
-[DOOM shareware episode]: http://www.doomworld.com/3ddownloads/ports/shareware_doom_iwad.zip
-[Repository]: https://github.com/coelckers/gzdoom
-[Supported Games]: https://zdoom.org/wiki/IWAD#Supported_IWADs
-[Website]: https://www.zdoom.org/
+[documentation]: https://zdoom.org/wiki/Main_Page
+[doom shareware episode]:
+  http://www.doomworld.com/3ddownloads/ports/shareware_doom_iwad.zip
+[repository]: https://github.com/coelckers/gzdoom
+[supported games]: https://zdoom.org/wiki/IWAD#Supported_IWADs
+[website]: https://www.zdoom.org/
