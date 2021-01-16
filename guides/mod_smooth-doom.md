@@ -1,8 +1,7 @@
 # Mod:Smooth Doom
 
-Smooth Doom is a spriting project/general enhacement that adds newly drawn
-frames to all of DOOM's weapons and actors. It smoothes out animations and adds
-additional visual effects to the following games:
+Smooth Doom is a mod that smoothes out animations and adds additional visual
+effects to the following games:
 
 - DOOM
 - DOOM II: Hell on Earth
@@ -12,7 +11,7 @@ additional visual effects to the following games:
 
 ## Guide
 
-1. Click the **DOWNLOAD ME** link on the mod website.
+1. Click the **DOWNLOAD ME link** on the website.
 1. Download the mod archive (`SmoothDoom.pk3`) into `scoop\persist\_doom\mods`.
 1. Open `scoop\persist\gzdoom\gzdoom_portable.ini` and paste in the following
    settings at the bottom of the file:

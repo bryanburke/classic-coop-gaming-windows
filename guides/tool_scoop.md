@@ -1,7 +1,7 @@
 # Tool:Scoop
 
-Scoop is a command-line installer for Windows. It simplifies installing and
-updating some of the software for other guides.
+Scoop is a portable software manager that simplifies installing and updating
+some of the packages for the guides.
 
 [Website][] | [Repository][] | [Documentation][]
 

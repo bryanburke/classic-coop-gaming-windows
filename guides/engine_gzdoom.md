@@ -1,7 +1,7 @@
 # Engine:GZDoom
 
-GZDoom is a 3D-accelerated DOOM source port. It streamlines playing and modding
-DOOM engine games on modern PCs.
+GZDoom is a DOOM engine source port with 3D acceleration and tons of features
+that streamlines playing and modding DOOM engine games on modern PCs.
 
 [Supported Games][]
 

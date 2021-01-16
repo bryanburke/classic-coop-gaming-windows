@@ -1,7 +1,7 @@
 # Tool:ZDL
 
-ZDL is a simple launcher for DOOM source ports. It supports profiles for quickly
-switching between games and configurations.
+ZDL is a graphical launcher for DOOM source ports that supports profiles for
+quickly switching between games and configurations.
 
 [Website][] | [Repository][]
 

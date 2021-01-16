@@ -1,7 +1,7 @@
 # Game:DOOM
 
-DOOM is the first release of the DOOM series and one of the games that
-consolidated the first-person shooter genre.
+DOOM is the first game in the DOOM series and one of the most iconic and
+important first-person shooters in history.
 
 [Store Page][]
 
