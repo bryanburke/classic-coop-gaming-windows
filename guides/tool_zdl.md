@@ -5,11 +5,6 @@ switching between games and configurations.
 
 [Website][] | [Repository][]
 
-## Prerequisites
-
-1. [Tool:Scoop](tool_scoop.md)
-1. [Engine:GZDoom](engine_gzdoom.md)
-
 ## Guide
 
 1. Update Scoop and install ZDL:
@@ -21,11 +16,12 @@ switching between games and configurations.
 
 1. Launch ZDL.
 1. Navigate to the **General settings** tab.
-1. Below the **Source ports** box, click the plus button.
+1. Below the **Source ports** box, click the **plus button**.
 1. Select `scoop\apps\gzdoom\current\gzdoom.exe` to add the GZDoom source port.
 1. Navigate to the **Launch config** tab.
-1. Next to the **Launch** button, click the down arrow to show the rest of the
-   options.
+1. Next to the **Launch** button, click the **down arrow** to show the rest of
+   the options.
+1. Close ZDL to save the configuration and window state.
 
 <!-- Reference Links -->
 

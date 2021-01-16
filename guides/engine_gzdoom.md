@@ -7,10 +7,6 @@ DOOM engine games on modern PCs.
 
 [Website][] | [Repository][] | [Documentation][]
 
-## Prerequisites
-
-1. [Tool:Scoop](tool_scoop.md)
-
 ## Guide
 
 1. Update Scoop and install GZDoom:
@@ -72,6 +68,7 @@ DOOM engine games on modern PCs.
    liking.
 1. If you need a free IWAD to launch GZDoom for the first time, download the
    [DOOM shareware episode][] and unpack `DOOM1.WAD` into `scoop\persist\_doom`.
+1. After tweaking your settings in-game, close GZDoom.
 
 <!-- Reference Links -->
 

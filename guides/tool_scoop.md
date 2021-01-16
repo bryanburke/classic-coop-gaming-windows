@@ -35,8 +35,8 @@ updating some of the software for other guides.
    scoop install mingit-busybox
    ```
 
-   Scoop installs the MinGit package with the BusyBox shell for the smallest
-   footprint possible.
+   This command installs the MinGit package with the BusyBox shell for the
+   smallest footprint possible.
 
 1. Add the [games bucket][], which contains manifests for some of the software
    in other guides:

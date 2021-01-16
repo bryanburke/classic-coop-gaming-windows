@@ -10,13 +10,10 @@ additional visual effects to the following games:
 
 [Website][]
 
-## Prerequisites
-
-1. [Engine:GZDoom](engine_gzdoom.md)
-
 ## Guide
 
-1. Download `SmoothDoom.pk3` into `scoop\persist\_doom\mods`.
+1. Click the **DOWNLOAD ME** link on the mod website.
+1. Download the mod archive (`SmoothDoom.pk3`) into `scoop\persist\_doom\mods`.
 1. Open `scoop\persist\gzdoom\gzdoom_portable.ini` and paste in the following
    settings at the bottom of the file:
 
