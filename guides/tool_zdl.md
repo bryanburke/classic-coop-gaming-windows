@@ -16,11 +16,11 @@ quickly switching between games and configurations.
 
 1. Launch ZDL.
 1. Navigate to the **General settings** tab.
-1. Below the **Source ports** box, click the **plus button**.
+1. Below the **Source ports** box, click the **plus** button.
 1. Select `scoop\apps\gzdoom\current\gzdoom.exe` to add the GZDoom source port.
 1. Navigate to the **Launch config** tab.
-1. Next to the **Launch** button, click the **down arrow** to show the rest of
-   the options.
+1. Next to the **Launch** button, click the **down** arrow button to show the
+   rest of the options.
 1. Close ZDL to save the configuration and window state.
 
 <!-- Reference Links -->

@@ -13,7 +13,7 @@ following reasons:
 
 ## Guide
 
-1. Click the **DOWNLOAD GOG GALAXY 2.0 button** on the website.
+1. Click the **DOWNLOAD GOG GALAXY 2.0** button on the website.
 1. Launch the installer and follow its prompts to install the client.
 1. If desired, [change the game installation directory][].
 

@@ -3,13 +3,12 @@
 DOOM is the first game in the DOOM series and one of the most iconic and
 important first-person shooters in history.
 
-[Store Page][]
-
-[Website][]
+[Website][] | [Store Page][]
 
 ## Prerequisites
 
-Before continuing, complete these guides in order and then return here:
+Before continuing, if you have not done so already, complete these guides in
+order and then return here:
 
 1. [Tool:GOG Galaxy](tool_gog-galaxy.md)
 1. [Tool:Scoop](tool_scoop.md)
@@ -29,7 +28,7 @@ Before continuing, complete these guides in order and then return here:
 1. Install _The Ultimate DOOM_ in GOG Galaxy.
 1. Right click on the game in your library.
 1. Within **Manage installation**, click **Configure...**
-1. Check **Custom executables / arguments**.
+1. Next to **Launch parameters**, check **Custom executables / arguments**.
 1. Scroll down and click **Add another executable / arguments**.
 1. Select `scoop\apps\zdl\current\ZDL.exe` to add the ZDL launcher.
 1. Enter _ZDL_ for **My label**.
@@ -37,11 +36,11 @@ Before continuing, complete these guides in order and then return here:
 1. Click **OK** to save the configuration.
 1. Launch the game in GOG Galaxy to open ZDL.
 1. Navigate to the **General settings** tab.
-1. Below the **IWADs** box, click the **plus button**.
+1. Below the **IWADs** box, click the **plus** button.
 1. Select `GOG Galaxy\Games\DOOM\DOOM.WAD` to add the DOOM IWAD.
 1. Navigate to the **Launch config** tab.
 1. For **Source port**, select _GZDoom_.
-1. For **IWAD**, select _The Ultimate Doom v1.9_.
+1. For **IWAD**, click _The Ultimate Doom v1.9_ to select it.
 
 ### Addons
 
@@ -57,10 +56,11 @@ Before continuing, complete these guides in order and then return here:
    This pack contains high quality recordings of the DOOM soundtrack MIDIs on
    the Roland SC-55.
 
-1. Below the **External files** box in ZDL, click the **plus button**.
-1. Select the files for the above addons to add them.
+1. Below the **External files** box in ZDL, click the **plus** button.
+1. Select the files for the above addons (`SIGIL_v1_21.wad` and
+   `doom_sc55_flac.zip`) to add them.
 1. Add the Smooth Doom mod (`SmoothDoom.pk3`) in the same way.
-1. Use the **up and down arrow buttons** to reorder the files like this:
+1. Use the **up** and **down** arrow buttons to reorder the files like this:
 
    1. `SIGIL_v1_21.wad`
    1. `SmoothDoom.pk3`
@@ -71,7 +71,7 @@ Before continuing, complete these guides in order and then return here:
 1. In ZDL, select _Co-op_ for **Game mode**.
 1. Follow the appropriate instructions below depending on whether you are
    joining or hosting the game.
-1. Once the game is set up and working, in the **ZDL drop-down menu** click
+1. Once the game is set up and working, in the **ZDL** drop-down menu click
    **Save .zdl**.
 1. Name the file `doom1_join.zdl` or `doom1_host.zdl` as appropriate.
 1. Save the profile to `scoop\persist\_doom\zdl`.

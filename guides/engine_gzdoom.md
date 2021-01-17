@@ -3,9 +3,7 @@
 GZDoom is a DOOM engine source port with 3D acceleration and tons of features
 that streamlines playing and modding DOOM engine games on modern PCs.
 
-[Supported Games][]
-
-[Website][] | [Repository][] | [Documentation][]
+[Website][] | [Repository][] | [Supported Games][] | [Documentation][]
 
 ## Guide
 
@@ -64,10 +62,10 @@ that streamlines playing and modding DOOM engine games on modern PCs.
 1. If your monitor's refresh rate is higher than 60 Hz, replace _60_ for
    `vid_maxfps` with the correct number.
 1. Save the configuration file.
-1. Launch GZDoom with any IWAD to customize the remaining settings to your
-   liking.
 1. If you need a free IWAD to launch GZDoom for the first time, download the
    [DOOM shareware episode][] and unpack `DOOM1.WAD` into `scoop\persist\_doom`.
+1. Launch GZDoom with any IWAD to customize the remaining settings to your
+   liking.
 1. After tweaking your settings in-game, close GZDoom.
 
 <!-- Reference Links -->

@@ -38,6 +38,9 @@ some of the packages for the guides.
    This command installs the MinGit package with the BusyBox shell for the
    smallest footprint possible.
 
+   **NOTE**: If you already have a distribution of Git installed and available
+   on your `PATH`, skip this step.
+
 1. Add the [games bucket][], which contains manifests for some of the software
    in other guides:
 
