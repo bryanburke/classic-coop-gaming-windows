@@ -96,7 +96,7 @@ order and then return here:
    desired:
 
    ```text
-   +alwaysapplydmflags 1 +sv_allowfreelook 1 +sv_cooploseammo 1 +sv_cooplosearmor 1 +sv_cooplosepowerups 1 +sv_forcerespawn 1 +sv_killallmonsters 1 +sv_noautoaim 1 +sv_nocrouch 1 +sv_nojump 1 +sv_weapondrop 1 +teamplay 1
+   +alwaysapplydmflags 1 +sv_allowfreelook 1 +sv_coophalveammo 1 +sv_cooplosearmor 1 +sv_cooplosepowerups 1 +sv_forcerespawn 1 +sv_killallmonsters 1 +sv_killbossmonst 1 +sv_noautoaim 1 +sv_nocrouch 1 +sv_nojump 1 +sv_noteamswitch 1 +sv_weapondrop 1 +sv_weaponstay 1 +teamplay 1
    ```
 
    Reference [Multiplayer and bot settings][] for these and other multiplayer
