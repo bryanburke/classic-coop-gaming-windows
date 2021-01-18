@@ -96,7 +96,7 @@ order and then return here:
    desired:
 
    ```text
-   +set sv_allowfreelook true +set sv_cooploseammo true +set sv_cooplosearmor true +set sv_cooplosepowerups true +set sv_killallmonsters true +set sv_noautoaim true +set sv_nocrouch true +set sv_nojump true +set sv_weapondrop true +set teamplay true
+   +alwaysapplydmflags 1 +sv_allowfreelook 1 +sv_cooploseammo 1 +sv_cooplosearmor 1 +sv_cooplosepowerups 1 +sv_forcerespawn 1 +sv_killallmonsters 1 +sv_noautoaim 1 +sv_nocrouch 1 +sv_nojump 1 +sv_weapondrop 1 +teamplay 1
    ```
 
    Reference [Multiplayer and bot settings][] for these and other multiplayer
